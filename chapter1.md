@@ -7,7 +7,7 @@ description: 'This is a template chapter.'
 
 ```yaml
 type: VideoExercise
-key: 9b8b314835
+key: 9814d4f00c
 lang: sql
 xp: 50
 skills: 1
@@ -20,7 +20,7 @@ skills: 1
 
 ```yaml
 type: PureMultipleChoiceExercise
-key: 05f0e97de7
+key: bc869e418c
 xp: 50
 skills: 1
 ```
@@ -52,7 +52,7 @@ This should assist students in cutting out some of the distractors.
 
 ```yaml
 type: NormalExercise
-key: 88bce02394
+key: 2b1bebdbab
 lang: sql
 xp: 100
 skills: 1
@@ -114,7 +114,7 @@ Ex().success_msg("Some praise! Then reinforce a learning objective from the exer
 
 ```yaml
 type: NormalExercise
-key: 643fbc0b46
+key: 294245d67f
 lang: r
 xp: 100
 skills: 1
@@ -169,3 +169,16 @@ for what is expected.
 # Update this to something more informative.
 Ex().success_msg("Some praise! Then reinforce a learning objective from the exercise.")
 ```
+
+---
+
+## Exploratory Data Analysis in SQL
+
+```yaml
+type: VideoExercise
+key: 64f625ddf2
+xp: 50
+```
+
+`@projector_key`
+bfffd6208993fd4a7442340d34f31d62
