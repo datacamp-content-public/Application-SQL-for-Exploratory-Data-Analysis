@@ -1,26 +1,28 @@
 ---
-title: Template Chapter 1
-description: This is a template chapter.
-
+title: 'Template Chapter 1'
+description: 'This is a template chapter.'
 ---
+
 ## Introduction to the Course SQL
 
 ```yaml
 type: VideoExercise
+key: 9b8b314835
 lang: sql
 xp: 50
 skills: 1
-key: 0a3482055d
 ```
 
+
 ---
+
 ## A follow-up on the course intro
 
 ```yaml
 type: PureMultipleChoiceExercise
+key: 05f0e97de7
 xp: 50
 skills: 1
-key: d6625a8ca6
 ```
 
 This exercise serves as a multiple choice exercise with no coding. We have a hard
@@ -29,14 +31,14 @@ often find it handy to have a multiple choice exercise immediately following
 the first video. Note that we do not allow back-to-back multiple choice exercises.
 More info on guidelines is [here](https://authoring.datacamp.com/courses/guidelines/content.html).
 
+`@hint`
+This should assist students in cutting out some of the distractors.
+
 `@possible_answers`
 - A
 - B
 - [C]
 - D
-
-`@hint`
-This should assist students in cutting out some of the distractors.
 
 `@feedback`
 - This is the reason why A is not the right answer.
@@ -45,14 +47,15 @@ This should assist students in cutting out some of the distractors.
 - This is the reason why D is not the right answer.
 
 ---
+
 ## An exercise title written in sentence case
 
 ```yaml
 type: NormalExercise
+key: 88bce02394
 lang: sql
 xp: 100
 skills: 1
-key: 2227ded8e7
 ```
 
 This is the [assignment text](http://authoring.datacamp.com/courses/exercises/normal-exercises/assignment-text.html). 
@@ -72,7 +75,6 @@ for what is expected.
 - Typically one hint per instruction is a sensible amount.
 
 `@pre_exercise_code`
-
 ```{python}
 # Load data bases and set viewable tables here.
 # connect('postgresql', 'countries')
@@ -80,7 +82,6 @@ for what is expected.
 ```
 
 `@sample_code`
-
 ```{sql}
 -- Your
 -- sample
@@ -94,7 +95,6 @@ for what is expected.
 ```
 
 `@solution`
-
 ```{sql}
 -- Answer goes here
 -- Make sure to match the comments with your sample code
@@ -103,21 +103,21 @@ for what is expected.
 ```
 
 `@sct`
-
 ```{python}
 # Update this to something more informative.
 Ex().success_msg("Some praise! Then reinforce a learning objective from the exercise.")
 ```
 
 ---
+
 ## Update the exercise title
 
 ```yaml
 type: NormalExercise
+key: 643fbc0b46
 lang: r
 xp: 100
 skills: 1
-key: 3b6d437585
 ```
 
 This is the [assignment text](http://authoring.datacamp.com/courses/exercises/normal-exercises/assignment-text.html). 
@@ -137,7 +137,6 @@ for what is expected.
 - Typically one hint per instruction is a sensible amount.
 
 `@pre_exercise_code`
-
 ```{python}
 # Load data bases and set viewable tables here.
 # connect('postgresql', 'countries')
@@ -145,7 +144,6 @@ for what is expected.
 ```
 
 `@sample_code`
-
 ```{sql}
 -- Your
 -- sample
@@ -159,7 +157,6 @@ for what is expected.
 ```
 
 `@solution`
-
 ```{sql}
 -- Answer goes here
 -- Make sure to match the comments with your sample code
@@ -168,9 +165,7 @@ for what is expected.
 ```
 
 `@sct`
-
 ```{python}
 # Update this to something more informative.
 Ex().success_msg("Some praise! Then reinforce a learning objective from the exercise.")
 ```
-
